@@ -8,12 +8,19 @@ body {
     padding: 0px;
 }
 
-
 .montserrat-font {
-    font-family: 'Monserrat', 'Roboto', sans-serif;
+    font-family: 'Monserrat', 'Roboto', sans-serif !important;
     font-optical-sizing: auto; /* This is a new property that is not supported by all browsers */
     font-weight: 100;
     font-style: thin;
+}
+
+p {
+    font-family: 'Monserrat', 'Roboto', sans-serif !important;
+    font-optical-sizing: auto; /* This is a new property that is not supported by all browsers */
+    font-weight: 100;
+    font-style: thin;
+    font-size: 15px;
 }
 
 /* Navigation Bar */
@@ -65,6 +72,16 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
+}
+
+#contact-quick-link {
+    text-decoration: none;
+    color: black;
+}
+
+#contact-quick-link:hover {
+    text-decoration: none;
+    color: rgb(102, 101, 101);
 }
 
 #moto {
@@ -134,12 +151,12 @@ body {
 }
 
 /* About Page */
-.member-card {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    width: 300px;
-    height: 400px;
+.about-member-card {
+    display: inline-block !important;
+    margin: 10px !important;
+    padding: 10px !important;
+    width: 300px !important;
+    height: 400px !important;
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px #333333;
@@ -182,16 +199,6 @@ body {
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px #333333;
-}
-
-.textarea-small {
-    min-width: 400px !important;
-    min-height: 30px !important;
-}
-
-.textarea-big {
-    min-width: 400px !important;
-    min-height: 100px !important;
 }
 
 .meeting-log-label {
