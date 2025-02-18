@@ -201,6 +201,18 @@ p {
     box-shadow: 0px 0px 5px 0px #333333;
 }
 
+#member-card-four {
+    height: 406px;
+}
+
+#member-card-five {
+    height: 460px;
+}
+
+#member-card-six {
+    height: 425px;
+}
+
 .meeting-log-label {
     margin-bottom: 0px !important; 
     padding-bottom: 0px !important;
